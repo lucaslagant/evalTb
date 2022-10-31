@@ -17,6 +17,7 @@ if (tot < 100) {
         port = 6;        
     }
     pap = tot + port;
+    document.write("Le prix à payer est de :" + pap + "€");   
 }
 // de 100 à 200
 if (tot >= 100 && tot <= 200) {
